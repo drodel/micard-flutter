@@ -1,0 +1,49 @@
+name: micard
+description: https://www.appbrewery.co/courses/flutter-development-bootcamp-with-dart/lectures/9986061
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/face.jpeg
+
+  fonts:
+    - family: Italianno
+      fonts:
+      - asset: fonts/Italianno-Regular.ttf
+    - family: SourceSansPro
+      fonts:
+        - asset: fonts/SourceSansPro-BlackItalic.ttf
+        - asset: fonts/SourceSansPro-Black.ttf
+        - asset: fonts/SourceSansPro-BoldItalic.ttf
+        - asset: fonts/SourceSansPro-Bold.ttf
+        - asset: fonts/SourceSansPro-ExtraLightItalic.ttf
+        - asset: fonts/SourceSansPro-ExtraLight.ttf
+        - asset: fonts/SourceSansPro-Italic.ttf
+        - asset: fonts/SourceSansPro-LightItalic.ttf
+        - asset: fonts/SourceSansPro-Light.ttf
+        - asset: fonts/SourceSansPro-Regular.ttf
+        - asset: fonts/SourceSansPro-SemiBoldItalic.ttf
+        - asset: fonts/SourceSansPro-SemiBold.ttf
+
