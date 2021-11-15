@@ -24,8 +24,7 @@ class MyApp extends StatelessWidget {
                 'Dale Rodel',
                 style: TextStyle(
                     fontSize: 40,
-                    fontFamil
-                    y: 'Italianno',
+                    fontFamily: 'Italianno',
                     color: Colors.white,
                     fontWeight: FontWeight.bold
                 ),
